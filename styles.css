@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(#0a0a23, #0a0a43);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+#game {
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 30px auto 0px;
+  padding: 10px;
+  border: 1px solid #0a0a23;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+
+.heading {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#stats {
+  background-image: linear-gradient(green, yellow);
+}
+
+#controls {
+  background-image: linear-gradient(#0a0a23, #0a0a43);
+}
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 1.5em;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-image: linear-gradient(
+    orange,
+    yellow
+  ); /* Change background color on hover */
+  border: none;
+}
